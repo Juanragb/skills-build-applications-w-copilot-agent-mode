@@ -27,6 +27,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
+ALLOWED_HOSTS += [
+    'potential-robot-6695wq74969cxqq4-8000.app.github.dev',
+    'localhost',
+    '127.0.0.1'
+]
+
 
 # Application definition
 
